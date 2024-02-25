@@ -1,0 +1,45 @@
+<header class="header">
+    <div class="header__container container">
+        <a href="index.html" class="header__logo">
+            <img class="header__logo-img" src="img/logo.svg" alt="" />
+        </a>
+        <nav class="header__menu">
+            <ul class="header__menu-list">
+                <li class="header__menu-item"><a href="delivery.html" class="header__menu-link">Доставка</a></li>
+                <li class="header__menu-item"><a href="person.html" class="header__menu-link">Юр. Лицам</a></li>
+                <li class="header__menu-item"><a href="payment.html" class="header__menu-link">Оплата</a></li>
+                <li class="header__menu-item"><a href="safeguard.html" class="header__menu-link">Гарантия</a></li>
+                <li class="header__menu-item"><a href="about.html" class="header__menu-link">О нас</a></li>
+                <li class="header__menu-item"><a href="contacts.html" class="header__menu-link">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="header__contact">
+            <p class="header__contact-time" href="#">10:00 - 19:00</p>
+            <a class="header__contact-email" href="mailto:1@TECHPRO.RU">1@TECHPRO.RU</a>
+            <a class="header__contact-phone" href="tel:8-910-00-00">8-910-00-00</a>
+        </div>
+        <button id="catalog_open" class="header__button">
+            Каталог
+        </button>
+        <div class="header__search">
+            <form class="header__search-form" action="/search" method="get">
+                <input class="header__search-input" type="text" placeholder="Искать товары" name="search" />
+                <input class="header__search-icon" type="image" src="img/search.svg" alt="Поиск" />
+            </form>
+            <button class="header__shop">
+                <img src="img/shopping.svg" alt="" />
+            </button>
+        </div>
+    </div>
+    <div class="header__mobile-search">
+        <div class="header__mobile-container">
+            <span class="header__mobile-title">
+                Поиск товара
+            </span>
+            <form action="/search" method="get" class="header__mobile-form">
+                <input class="header__mobile-input" type="text" placeholder="Артикул, категория, бренд, модель..." name="search" />
+                <button class="header__mobile-button">Искать в каталоге</button>
+            </form>
+        </div>
+    </div>
+</header>
